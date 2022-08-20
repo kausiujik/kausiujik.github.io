@@ -1,13 +1,12 @@
-theme:              jekyll-theme-slate
-title:              Blog
-tagline:            on GitHub Pages
-description:        Content-focused template for a blog hosted on GitHub Pages.
-url:                http://YourName.github.io
+title:              统计小站
+tagline:            By kausiujik
+description:        目录：文章列表
+url:                http://kausiujik.github.io
 
 author:
-  name:             Your Name
-  url:              https://twitter.com/YourName
-  email:            YourName@gmail.com
+  name:             kausiujik
+  url:              https://twitter.com/watt16
+  email:            watthu@gmail.com
 
 # GitHub Pages / Jekyll configuration
 baseurl:            ''
