@@ -7,36 +7,18 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1894.6">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px Times; color: #0b1034; -webkit-text-stroke: #0b1034}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px Times; color: #0b1034; -webkit-text-stroke: #0b1034; min-height: 16.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px Times; color: #0b0c27; -webkit-text-stroke: #0b0c27; min-height: 16.0px}
     span.s1 {font: 12.0px 'Songti SC'; font-kerning: none}
     span.s2 {font-kerning: none}
-    span.s3 {font: 12.0px Times; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s4 {font-kerning: none; color: #111214; background-color: #eef1f5; -webkit-text-stroke: 0px #111214}
-    span.s5 {font-kerning: none; background-color: #eef1f5}
-    span.s6 {font: 14.0px Times; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000dc}
-    span.s7 {font: 14.0px Times; font-kerning: none}
+    span.s3 {font: 14.0px Times; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000d3}
+    span.s4 {font: 14.0px Times; font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYOE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p2"><span class="s1">{</span><span class="s2">% include head.html %}</span></p>
-<p class="p3"><span class="s2"></span><br></p>
-<p class="p4"><span class="s3">&lt;body class=</span><span class="s4">"</span><span class="s5">theme-base-0d</span><span class="s4">”&gt;</span></p>
-<p class="p3"><span class="s2"></span><br></p>
-<p class="p2"><span class="s2">{% include sidebar.html %}</span></p>
-<p class="p5"><span class="s2"></span><br></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 11.7px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s6"><a href="file:///Users/apple/Desktop/kausiujik.github.io/_layouts/%7B%7B%20site.baseurl%20%7D%7D/"><b>{{ site.title }}</b></a></span><span class="s7"><b> </b></span><span class="s2"><b>{{ site.tagline }}</b></span><span class="s7"><b><span class="Apple-converted-space"> </span></b></span></h3>
-<p class="p2"><span class="s2">&lt;div class=“content container”&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>{{ content }}<span class="Apple-converted-space"> </span></span></p>
-<p class="p2"><span class="s2">&lt;/div&gt;</span></p>
-<p class="p3"><span class="s2"></span><br></p>
-<p class="p2"><span class="s2">&lt;/body&gt;</span></p>
-<p class="p3"><span class="s2"></span><br></p>
-<p class="p2"><span class="s2">&lt;/html&gt;</span></p>
+<p class="p1"><span class="s1">{</span><span class="s2">% include head.html %} {% include sidebar.html %}</span></p>
+<p class="p2"><span class="s2"></span><br></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 11.7px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><a href="file:///Users/apple/Desktop/kausiujik.github.io/_layouts/%7B%7B%20site.baseurl%20%7D%7D/"><b>{{ site.title }}</b></a></span><span class="s4"><b> </b></span><span class="s2"><b>{{ site.tagline }}</b></span><span class="s4"><b><span class="Apple-converted-space"> </span></b></span></h3>
+<p class="p1"><span class="s2">{{ content }}</span></p>
 </body>
 </html>
