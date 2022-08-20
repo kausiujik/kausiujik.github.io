@@ -1,29 +1,22 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/about/">About</a>
-
-    {% assign posts_list = site.posts | sort:"url" %}
-    {% for node in posts_list %}
-      {% if node.title != null %}
-        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-      {% endif %}
-    {% endfor %}
-
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div>
-</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1894.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 12.0px 'Songti SC'; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{{ site.description }}</span></p>
+<p class="p2"><span class="s2">主页</span><span class="s1"> </span><span class="s2">关于我</span><span class="s1"> {% assign posts_list = site.posts | sort:"url" %} {% for node in posts_list %} {% if node.title != null %} <a href="file:///Users/apple/Desktop/%7B%7B%20node.url%20%7D%7D"><span class="s3">{{ node.title }}</span></a> {% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">© {{ site.time | date: '%Y' }}. All rights reserved.<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
