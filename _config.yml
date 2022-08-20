@@ -1,5 +1,5 @@
 # Site settings
-title: 统计小站
+title: 统计小站 | Kausiujik
 SEOTitle: 统计小站 | Kausiujik
 header-img: img/home-bg.jpg
 email: zjuwatthu@sina.com
@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "尽一切努力去换美好明天 | Try Our Best!"
+sidebar-about-description: "尽一切努力去换美好明天 </br> Try Our Best!"
 sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
