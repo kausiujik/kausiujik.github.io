@@ -16,8 +16,6 @@
 
 ###### 其他历史版本个人觉得没有必要了解，看看英文就行了。
 
-
-
 ## 支持
 
 * 你可以自由的fork。如果你能将我的信息和github的地址放在你的页面底部做成链接，我将非常感谢你。
@@ -227,8 +225,4 @@ There are a number of tasks it performs like minification of the JavaScript, com
 
 1. 这个模板是从这里[IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)  forked 的。 感谢这个作者
 2. 感谢[@BrucZhaoR](https://github.com/BruceZhaoR)的中文翻译 
-
 3. 感谢 Jekyll、Github Pages 和 Bootstrap!
-
-
-
