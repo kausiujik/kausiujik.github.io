@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "尽一切努力去换美好明天 </br> Try Our Best!"
+sidebar-about-description: "做一个充满 Grit 的统计人 </br> Grit Makes Perfect!"
 sidebar-avatar: http://www.github.com/kausiujik.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
