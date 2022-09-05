@@ -1,0 +1,38 @@
+---
+title: "第1章 绪论（贝叶斯公式与贝叶斯统计推断）"
+author: "Watthu"
+date: "9/5/2022"
+output: html_document
+tags:
+  - 贝叶斯分析
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 引言
+
+### 贝叶斯公式
+
+设 $B_1,\dots,B_n$ ($n$ 为有限或无穷)是样本空间 $\Omega$ 中的一个**完备事件群** (又称为 $\Omega$ 的一个**分划**), 即满足:
+
+  (a) 两两不相交, 即 $B_i\cap B_j=\varnothing$, $i\neq j$;
+  (b) 它们的并(和)正好是样本空间, 即 $\displaystyle\sum_{i=1}^nB_i=\Omega$.
+
+设 $A$ 为 $\Omega$ 中的一个事件, 则**全概率公式**为 
+
+$$
+P(A)=P\left(\sum_{i=1}^nA\cap B_i\right)=\sum_{i=1}^nP(A\mid B_i)P(B_i).
+$$
+
+基于全概率公式, 可以得到概率论中另一个著名且有用的公式——**贝叶斯公式**.
+
+设 $A$ 为 $\Omega$ 中的一个事件且满足 $P(A)>0$, 存在样本空间 $\Omega$ 的一个分划 $B_1,\dots,B_n$ 且满足 $P(B_i)>0$, $i=1,\dots,n$, 则
+
+$$
+P(B_i\mid A)=\frac{P(A\mid B_i)P(B_i)}{P(A)}=\frac{P(A\mid B_i)P(B_i)}{\sum\limits_{j=1}^nP(A\mid B_j)P(B_j)},\quad i=1,\dots,n.
+$$
+
+贝叶斯公式的基本意义在于我们可以对事物的发生概率在有进一步信息的情况下进行修正.
+
