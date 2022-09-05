@@ -2,14 +2,9 @@
 title: "第1章 绪论（贝叶斯公式与贝叶斯统计推断）"
 author: "Watthu"
 date: "9/5/2022"
-output: html_document
 tags:
   - 贝叶斯分析
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## 引言
 
