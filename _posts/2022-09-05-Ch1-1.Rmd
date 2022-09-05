@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "第1章 绪论（贝叶斯公式与贝叶斯统计推断）"
 author: "Watthu"
 date: "9/5/2022"
