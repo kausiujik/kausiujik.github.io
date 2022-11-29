@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "StatCompWithR: 统计计算（持续更新中）"
-subtitle: "Statistical Computing with R (in progress)"
+title: "StatCompWithR: 统计计算（已完结）"
+subtitle: "Statistical Computing with R (done)"
 author: "Watthu"
 header-style: text
 mathjax: true
