@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 #weibo_username: huxpro
-zhihu_username: kausiujik
+#zhihu_username: kausiujik
 github_username: kausiujik
 #twitter_username: huxpro
 #facebook_username:  huxpro
@@ -90,7 +90,7 @@ service-worker: true
 page-mathjax: true
 
 # Friends
-friends:
-  [
-    { title: "蒸汽胡", href: "https://www.zhihu.com/people/kausiujik" },
-  ]
+# friends:
+#   [
+#     { title: "蒸汽胡", href: "https://www.zhihu.com/people/kausiujik" },
+#   ]
